@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Page Title & Meta Description -->
+    <title>EL CHEFE Private Chef Service | Chef Edem</title>
+    <meta
+      name="description"
+      content="EL CHEFE Private Chef Service by Chef Edem. Freshly prepared local Ghanaian and continental dishes at GH₵500 per day (7:00 AM – 3:00 PM). Enquire on WhatsApp."
+    />
+
+    <!-- Robots Metadata -->
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- Google Search Console: Insert verification meta tag below upon domain connection if using HTML tag verification method -->
+    <!-- <meta name="google-site-verification" content="YOUR_SEARCH_CONSOLE_VERIFICATION_TOKEN" /> -->
+
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Canonical URL resolution: Prevents accidental localhost / preview URL canonicalization -->
+    <script>
+      (function() {
+        try {
+          var isLocalOrPreview = window.location.hostname === 'localhost' ||
+            window.location.hostname === '127.0.0.1' ||
+            window.location.hostname.endsWith('run.app');
+          
+          if (!isLocalOrPreview) {
+            var canonical = document.createElement('link');
+            canonical.rel = 'canonical';
+            canonical.href = window.location.origin + '/';
+            document.head.appendChild(canonical);
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Open Graph Social Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="EL CHEFE Private Chef Service" />
+    <meta property="og:title" content="EL CHEFE Private Chef Service | Chef Edem" />
+    <meta
+      property="og:description"
+      content="EL CHEFE Private Chef Service by Chef Edem. Freshly prepared local Ghanaian and continental dishes at GH₵500 per day (7:00 AM – 3:00 PM). Enquire on WhatsApp."
+    />
+    <meta property="og:image" content="/chef_edem.jpg" />
+    <meta property="og:image:alt" content="Chef Edem of EL CHEFE Private Chef Service" />
+
+    <!-- Twitter / X Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="EL CHEFE Private Chef Service | Chef Edem" />
+    <meta
+      name="twitter:description"
+      content="EL CHEFE Private Chef Service by Chef Edem. Freshly prepared local Ghanaian and continental dishes at GH₵500 per day (7:00 AM – 3:00 PM). Enquire on WhatsApp."
+    />
+    <meta name="twitter:image" content="/chef_edem.jpg" />
+    <meta name="twitter:image:alt" content="Chef Edem of EL CHEFE Private Chef Service" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD Structured Data: Grounded strictly in visible verified business facts -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["Service", "FoodService"],
+          "@id": "#elchefe-service",
+          "name": "EL CHEFE Private Chef Service",
+          "alternateName": "EL CHEFE",
+          "serviceType": "Private Chef Service",
+          "description": "Private chef service by Chef Edem providing freshly prepared local Ghanaian and continental dishes, and kitchen cleaning after cooking.",
+          "image": "/chef_edem.jpg",
+          "provider": {
+            "@type": "Person",
+            "name": "Edem",
+            "jobTitle": "Private Chef",
+            "image": "/chef_edem.jpg",
+            "telephone": ["+233248860055", "+233274308198"],
+            "email": "boadiedemmichael816@gmail.com"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "500",
+            "priceCurrency": "GHS",
+            "description": "Standard daily private chef rate of GH₵500 per day for 7:00 AM – 3:00 PM session"
+          },
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "07:00",
+            "closes": "15:00"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Culinary Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Freshly Prepared Meals",
+                  "description": "On-site meal preparation of local Ghanaian and continental dishes in your kitchen."
+                },
+                "price": "500",
+                "priceCurrency": "GHS"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Kitchen Cleaning After Cooking",
+                  "description": "Pots, pans, and cooking utensils washed, and countertops and cooking surfaces wiped clean after cooking."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "#elchefe-faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does EL CHEFE offer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "EL CHEFE Private Chef Service provides freshly prepared meals cooked on-site in your kitchen and complete kitchen cleaning after cooking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the daily rate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The stated private chef service rate is GH₵500 per day, covering on-site cooking and kitchen cleaning after cooking during the daily service window."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the working hours?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chef Edem is available Monday to Sunday from 7:00 AM to 3:00 PM."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What types of cuisine are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Local Ghanaian dishes and continental dishes. Menu options can be discussed based on your preferences."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I enquire about a booking?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can submit the booking enquiry form on this website or reach out directly to Chef Edem via WhatsApp (024 886 0055), phone, or email."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is my requested date automatically confirmed?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. The booking form is an enquiry system. Chef Edem will review your request and personally confirm availability for your preferred date upon receiving your message."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#FAF7F2] text-[#1E1B18] font-sans antialiased selection:bg-[#D4A346]/20 selection:text-[#1E1B18]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

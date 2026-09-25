@@ -1,0 +1,7 @@
+# robots.txt for EL CHEFE Private Chef Service
+User-agent: *
+Allow: /
+
+# Note for production deployment:
+# Once your live domain is connected, reference your sitemap:
+# Sitemap: https://PRODUCTION_DOMAIN_URL/sitemap.xml

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!--
+    PRODUCTION SITEMAP:
+    To configure your live domain upon launch, either:
+    1. Set the SITE_URL or VITE_SITE_URL build environment variable (e.g. https://yourdomain.com), OR
+    2. Replace the <loc> tag below with your custom production domain (e.g. https://yourdomain.com/).
+  -->
+  <url>
+    <loc>https://PRODUCTION_DOMAIN_URL/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

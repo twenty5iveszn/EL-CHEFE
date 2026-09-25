@@ -1,0 +1,6 @@
+{
+  "name": "EL CHEFE Private Chef Service",
+  "description": "EL CHEFE Private Chef Service by Chef Edem. Freshly prepared local Ghanaian and continental dishes at GH₵500 per day (7:00 AM – 3:00 PM). Enquire on WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
